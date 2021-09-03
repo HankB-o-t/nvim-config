@@ -1,3 +1,5 @@
+![Logo](https://github.com/HankB-o-t/nvim-config/blob/main/nvim.png)
+
 # nvim-config
 config for nvim in Windows10 using vim-plug (you need to install it)
 
