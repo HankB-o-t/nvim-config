@@ -20,6 +20,7 @@ Plug 'Yggdroot/indentLine', " Lineas de indentacion
 Plug 'xuyuanp/nerdtree-git-plugin', " Nerd tree git plugin
 Plug 'jiangmiao/auto-pairs',
 Plug 'alvan/vim-closetag',
+Plug 'sheerun/vim-polyglot', " Es un conjunto de cosas para lenguajes de programacion
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim',
 call plug#end()
