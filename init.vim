@@ -13,6 +13,7 @@ set laststatus=2
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'joshdick/onedark.vim', " OneDark Theme
+Plug 'morhetz/gruvbox', " GruvBox theme
 Plug 'preservim/nerdtree', " Exploracion De Archivos
 Plug 'vim-airline/vim-airline', " Barra de estado
 Plug 'vim-airline/vim-airline-themes',  " Temas para airline
@@ -26,7 +27,7 @@ Plug 'junegunn/fzf.vim',
 call plug#end()
 
 set termguicolors  " Activa true colors en la terminal
-colorscheme onedark  " Activa tema onedark
+colorscheme gruvbox  " Activa tema onedark
 let mapleader=" "
 let g:NERDTreeChDirMode = 2  " Cambia el directorio actual al nodo padre actual
 
